@@ -45,7 +45,7 @@ public class TaskService {
     /**
      * Ипользуется для обновления задачи по ID его логирования
      *
-     * @param taskId аргемент типа {@link Long}
+     * @param taskId  аргемент типа {@link Long}
      * @param request аргуемента типа {@link TaskRequest}
      * @return обьект типа {@link Task},
      */
@@ -78,6 +78,7 @@ public class TaskService {
 
     /**
      * Ипользуется для получения задачи по ID и его логирования
+     *
      * @param taskId аргуемент типа  ({@link Long})
      * @return обьект типа {@link Task} успешном выополнении
      */

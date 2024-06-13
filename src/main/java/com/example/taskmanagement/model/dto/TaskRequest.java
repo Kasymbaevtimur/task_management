@@ -2,6 +2,7 @@ package com.example.taskmanagement.model.dto;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
+
 /**
  * Pojo DTO класс для задачи {@link com.example.taskmanagement.model.Task}
  * Используется для переноса данных со стороны клиента</p>
@@ -14,6 +15,6 @@ import lombok.experimental.FieldDefaults;
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class TaskRequest {
-     String description;
-     boolean done;
+    String description;
+    boolean done;
 }
